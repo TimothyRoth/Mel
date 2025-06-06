@@ -1,4 +1,21 @@
-### Was sind META-Daten
+### Was ist der HTML `<head>`-Bereich?
+
+Der `<head>` ist ein unsichtbarer Teil einer HTML-Seite, der Meta-Informationen enthält – also Daten über die Seite selbst, nicht den sichtbaren Inhalt.
+
+Er steht am Anfang des HTML-Dokuments und befindet sich oberhalb des `<body>`-Teils, der den sichtbaren Inhalt enthält.
+
+#### Inhalt des `<head>`
+
+| Tag        | Bedeutung                                               |
+| ---------- | ------------------------------------------------------- |
+| `<title>`  | Titel der Seite (erscheint im Browser-Tab)              |
+| `<meta>`   | Metadaten wie Zeichensatz, Beschreibung, Autor          |
+| `<link>`   | Einbindung externer Dateien, z. B. CSS                  |
+| `<style>`  | Direkt eingebettetes CSS                                |
+| `<script>` | JavaScript, das vor dem Laden der Seite ausgeführt wird |
+
+
+### Was sind META-Daten?
 
 META-Daten (auch Metadaten) sind „Daten über Daten“. Sie beschreiben Informationen über eine Datei, ein Dokument, ein Bild, eine Webseite oder ein anderes Datenobjekt, ohne selbst der eigentliche Inhalt zu sein.
 
@@ -10,7 +27,7 @@ META-Daten (auch Metadaten) sind „Daten über Daten“. Sie beschreiben Inform
 | Buch     | Titel, Autor, ISBN, Verlag          |
 | Musik    | Titel, Künstler, Album, Genre       |
 
-### Wie ist ein HTML Tag aufgebaut
+### Wie ist ein HTML Tag aufgebaut?
 
 <tagname>Inhalt</tagname>
 
