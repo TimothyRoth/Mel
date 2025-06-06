@@ -14,9 +14,9 @@ META-Daten (auch Metadaten) sind „Daten über Daten“. Sie beschreiben Inform
 
 <tagname>Inhalt</tagname>
 
-- <tagname> → Start-Tag
+- `<tagname>` → Start-Tag
 - Inhalt → Der sichtbare Inhalt auf der Webseite
-- </tagname> → End-Tag
+- `</tagname>` → End-Tag
 
 #### Beispiel Tags und ihre Bedeutung
 
