@@ -20,7 +20,6 @@ META-Daten (auch Metadaten) sind „Daten über Daten“. Sie beschreiben Inform
 
 #### Beispiel Tags und ihre Bedeutung
 
-Tag	Bedeutung	Beispiel
 | Tag             | Bedeutung                    | Beispiel                                      |
 | --------------- | ---------------------------- | --------------------------------------------- |
 | `<h1>`          | Überschrift 1. Ordnung       | `<h1>Willkommen</h1>`                         |
