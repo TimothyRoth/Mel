@@ -1,3 +1,26 @@
+### Was ist ein HTML Dokument?
+
+Ein HTML-Dokument ist eine Textdatei, die mit der Auszeichnungssprache HTML (HyperText Markup Language) geschrieben ist. Es beschreibt den Aufbau und Inhalt einer Webseite.
+
+Browser wie Chrome, Firefox oder Safari lesen HTML-Dokumente und zeigen sie als Webseiten an.
+
+#### Erklärung der Bestandteile:
+
+| Bereich           | Bedeutung                                             |
+| ----------------- | ----------------------------------------------------- |
+| `<!DOCTYPE html>` | Gibt an, dass es sich um ein HTML5-Dokument handelt   |
+| `<html>`          | Wurzel-Element – umschließt den gesamten HTML-Code    |
+| `<head>`          | Unsichtbare Infos wie Titel, Metadaten, CSS, JS       |
+| `<title>`         | Titel der Seite – erscheint im Browser-Tab            |
+| `<body>`          | Sichtbarer Teil der Seite (Texte, Bilder, Links usw.) |
+
+#### Merkmale:
+
+- Textbasiert, kann mit jedem Texteditor erstellt werden (z. B. Notepad, VS Code)
+- Dateiendung ist meistens .html oder .htm
+- Wird im Webbrowser angezeigt
+- Kann CSS (Design) und JavaScript (Funktionalität) enthalten oder einbinden
+
 ### Was ist der HTML `<head>`-Bereich?
 
 Der `<head>` ist ein unsichtbarer Teil einer HTML-Seite, der Meta-Informationen enthält – also Daten über die Seite selbst, nicht den sichtbaren Inhalt.
