@@ -69,3 +69,59 @@ META-Daten (auch Metadaten) sind „Daten über Daten“. Sie beschreiben Inform
 | `<ul>` / `<li>` | Liste / Listeneintrag        | `<ul><li>Eintrag</li></ul>`                   |
 | `<div>`         | Container/Abschnitt          | `<div>Inhalt</div>`                           |
 | `<br>`          | Zeilenumbruch (kein End-Tag) | `Text<br>nächste Zeile`                       |
+
+### Was sind CSS-Selektoren?
+
+CSS-Selektoren sind Muster, mit denen man HTML-Elemente auswählt, um ihnen bestimmte Design-Regeln (Styles) zuzuweisen. Sie definieren, auf welche Elemente die CSS-Regeln angewendet werden sollen.
+Warum CSS-Selektoren?
+
+Sie ermöglichen es, das Aussehen von Webseiten flexibel und gezielt zu gestalten — z. B. nur Überschriften rot färben oder alle Links unterstreichen.
+
+| Selektor           | Beschreibung                                        | Beispiel                               |
+| ------------------ | --------------------------------------------------- | -------------------------------------- |
+| Element-Selektor   | Wählt alle Elemente eines bestimmten Typs aus       | `p { color: blue; }` → alle `<p>`      |
+| Klassen-Selektor   | Wählt alle Elemente mit einer bestimmten Klasse aus | `.highlight { font-weight: bold; }`    |
+| ID-Selektor        | Wählt genau ein Element mit einer bestimmten ID     | `#header { background: grey; }`        |
+| Attribut-Selektor  | Wählt Elemente mit bestimmten Attributen aus        | `[type="text"] { border: 1px solid; }` |
+| Nachfahrenselektor | Wählt alle Nachfahren eines Elements                | `div p { margin: 10px; }`              |
+| Kindselektor       | Wählt direkte Kind-Elemente eines Elements          | `ul > li { list-style: none; }`        |
+| Pseudo-Klassen     | Wählt Elemente in einem bestimmten Zustand          | `a:hover { color: red; }`              |
+| Universal-Selektor | Wählt alle Elemente                                 | `* { box-sizing: border-box; }`        |
+
+#### Erklärung ausgewählter CSS-Selektoren:
+
+| Selektor                 | Beschreibung                              | Beispiel & Wirkung                               |
+| ------------------------ | ----------------------------------------- | ------------------------------------------------ |
+| `p`                      | Alle `<p>`-Elemente                       | `p { font-size: 16px; }`                         |
+| `.menu`                  | Alle Elemente mit der Klasse `menu`       | `<div class="menu">`                             |
+| `#logo`                  | Element mit der ID `logo`                 | `<img id="logo">`                                |
+| `a:hover`                | Links, wenn die Maus darüber schwebt      | `a:hover { color: green; }`                      |
+| `input[type="checkbox"]` | Checkbox-Input-Felder                     | Stil für Checkboxen                              |
+| `div > p`                | Direktes Kind-Element `<p>` eines `<div>` | Nur `<p>`-Elemente, die direkt in `<div>` stehen |
+
+```css
+/* Alle Absätze blau färben */
+p {
+color: blue;
+}
+
+/* Elemente mit Klasse .highlight fett darstellen */
+.highlight {
+font-weight: bold;
+}
+
+/* Element mit ID #header grau hinterlegen */
+#header {
+background-color: #ccc;
+}
+
+/* Link beim Hover rot färben */
+a:hover {
+color: red;
+}
+```
+#### Zusammenfassung
+
+- CSS-Selektoren bestimmen, welche HTML-Elemente von Styles betroffen sind.
+- Sie können nach Elementtyp, Klassen, IDs, Attributen oder Beziehungen zwischen Elementen unterscheiden.
+- Durch Pseudo-Klassen und Pseudo-Elemente sind auch Zustände und spezielle Teile von Elementen adressierbar.
