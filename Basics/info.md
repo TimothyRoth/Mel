@@ -125,3 +125,6 @@ color: red;
 - CSS-Selektoren bestimmen, welche HTML-Elemente von Styles betroffen sind.
 - Sie können nach Elementtyp, Klassen, IDs, Attributen oder Beziehungen zwischen Elementen unterscheiden.
 - Durch Pseudo-Klassen und Pseudo-Elemente sind auch Zustände und spezielle Teile von Elementen adressierbar.
+
+#### Übungen
+- <a href="https://flukeout.github.io/">https://flukeout.github.io/</a>
